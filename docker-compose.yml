@@ -1,7 +1,8 @@
-version: "2"
 services:
   app:
     build: .
+    networks:
+      - tiwap-network
     ports:
       - "8080:8000"
     volumes:
@@ -10,6 +11,8 @@ services:
       - db
   db:
     image: "mongo:4.4"
+    networks:
+      - tiwap-network
     environment:
       - MONGO_INITDB_DATABASE=TIWAP
       - MONGO_INITDB_ROOT_USERNAME=username
@@ -18,3 +21,6 @@ services:
       - ./init-db.js:/docker-entrypoint-initdb.d/init-db.js:ro
     ports:
       - "27017:27017"
+networks:
+  tiwap-network:
+    driver: bridge

@@ -26,7 +26,8 @@ Once you are done with docker installation, run the following commands.
 
 > git clone https://github.com/hassanaftab93/TIWAP <br/>
 > cd TIWAP <br/>
-> docker-compose up
+> docker compose up -d and then get the docker compose logs for the service 'app' to get IP
+> OR run `make logs` this will run the [makefile](./Makefile) target up and then grab the logs for the IP being assigned to the application
 
 <strong>Note: It works only on Linux as of now and windows compatibility is work under progress </strong>
 
