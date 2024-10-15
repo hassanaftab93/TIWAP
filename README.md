@@ -6,14 +6,14 @@
 
 
 TIWAP is a web security testing lab made using Flask for budding security enthusiasts to learn about various web 
-vulnerabilities. Inspired by DVWA, the contributors have tried their best to regenerate various web vulnerabilities
+vulnerabilities.
 
 The application is solely made for educational purpose and to learn web hacking in a legal environment. 
 
 ## Disclaimer
 
-We highly recommend installing the lab on a Virtual Machine instead of a live web server (Internal or External).
-We do not take responsibility for the way in which anyone uses this application (TIWAP). 
+I highly recommend installing the lab on a Virtual Machine instead of a live web server (Internal or External).
+I do not take responsibility for the way in which anyone uses this application (TIWAP). 
 The application has been made for educational purpose only and should not be used maliciously. 
 If your web servers are compromised due to installation of this application, 
 it is not our responsibility, it is the responsibility of the person/s who uploaded and installed it.
