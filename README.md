@@ -26,12 +26,12 @@ Once you are done with docker installation, run the following commands.
 
 > git clone https://github.com/hassanaftab93/TIWAP <br/>
 > cd TIWAP <br/>
-> docker compose up -d and then get the docker compose logs for the service 'app' to get IP
-> OR run `make logs` this will run the [makefile](./Makefile) target up and then grab the logs for the IP being assigned to the application
+> docker compose up -d
+> curl -k https://localhost:8080
 
 <strong>Note: It works only on Linux as of now and windows compatibility is work under progress </strong>
 
-Once the lab is started, you can log in using the default credentials.<br/>
+Once the lab is started, go to https://localhost:8080 , You can log in using the default credentials.<br/>
 Username: `admin` <br/>
 Password: `admin`
 
