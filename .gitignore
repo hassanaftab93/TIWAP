@@ -1,0 +1,22 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+
+# Log files
+*.log
+
+# Virtual environment files
+venv/
+env/
+
+# IDE files
+.vscode/
+*.idea/
+*.pycharm/
+
+# Miscellaneous
+*.DS_Store
+*.egg-info/
+dist/
+build/
+*.egg
