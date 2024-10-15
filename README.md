@@ -24,10 +24,12 @@ To keep the installation and setup easy, I have configured everything for you. A
 
 Once you are done with docker installation, run the following commands. 
 
-`git clone https://github.com/hassanaftab93/TIWAP`<br>
-`cd TIWAP`<br>
-`docker compose up -d`<br>
-`curl -k https://localhost:8080`<br>
+```bash
+git clone https://github.com/hassanaftab93/TIWAP && \
+cd TIWAP && \
+docker compose up -d && \
+curl -k https://localhost:8080
+```
 
 <strong>Note: It works only on Linux as of now and windows compatibility is work under progress </strong>
 
